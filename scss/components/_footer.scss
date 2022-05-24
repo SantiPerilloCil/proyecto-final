@@ -1,0 +1,36 @@
+@import'../base/variables';
+@import'../base/extends';
+.footer{
+    @extend %footer;
+    .redes{
+        a{
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    li{
+        a{
+            display: flex;
+            text-decoration: none;
+            color: white;
+            padding-bottom: 20px;
+        }
+    }
+    .foot-dir{
+        color: white;
+        text-transform: uppercase; 
+        a{
+            img{
+                margin-bottom: 10px;
+                width: 40px;
+                height: 40px;
+                margin-left: 55px;
+            }
+        }
+        h2{
+            font-size: medium;
+        }
+    }
+}

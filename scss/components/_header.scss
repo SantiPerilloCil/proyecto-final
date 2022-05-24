@@ -1,0 +1,14 @@
+@import'../base/variables';
+header{
+    .background-nav{
+        background-color: $background-color-header;
+        div{
+            a{
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}

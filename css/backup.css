@@ -1,0 +1,257 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+/*.background-nav{
+    background-color: white;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+div{
+    width: 150;
+    height: 80;
+}*/
+
+/*.menu{
+    list-style: none;
+    display: flex; 
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 10px;
+    background-color: #191919;
+    display: grid;
+}
+
+.inicio-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+}
+
+.inicio-hijo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.inicio-hijovideo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.video-1{
+    grid-row-start: span 2;
+}*/
+
+/*.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#191919ec ;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+    padding: 20px;
+    
+}
+
+.redes img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.foot-dir{
+    color: white;
+    text-transform: uppercase;  
+}
+
+.foot-dir h2{
+    font-size: medium;
+
+}
+
+.foot-dir img{
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 55px;
+}*/
+
+
+
+/*-----Nuevos ingresos-----*/
+
+/*.main-1{
+    background-image: linear-gradient(white, #191919ec);
+    
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}*/
+
+
+
+
+
+/*---productos---*/
+
+/*.main-2{
+    background-color: #191919ec;
+}
+
+.conoce{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    color: white;
+    padding-top: 20px;
+}*/
+
+
+/*--punto de venta--*/
+
+/*.main{
+    background-color: #191919ec;
+}
+
+.ubi{
+margin: 20px 10px 20px 10px;
+}
+
+.venta{
+    text-align: center;
+    text-decoration: overline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 20px;
+}    
+
+.locales img{
+    width: 300px;
+    height: 300px;
+}
+
+.locales video{
+    width: 1500px;
+    height: 400px;
+}*/
+
+/*--contacto--*/
+
+.main-contacto{
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+background-image: linear-gradient(white, #191919ec);
+}
+
+.contacto{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    padding-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;   
+}
+
+
+
+/*---media querie - mobile---*/
+
+@media (max-width:450px){
+  .header img{
+      width: 100px;
+      height: 100px;
+  }
+
+  .menu li a{
+      font-size: 9px;
+  }
+
+    .inicio-index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 180px;    
+    }
+
+    .inicio-hijo{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+   .redes img{
+       width: 30px;
+       height: 30px;
+   }
+
+   .footer li a{
+       font-size: 5px;
+   }
+   .foot-dir a img{
+       width: 20px;
+       height: 20px;
+   }
+   .foot-dir h2{
+       font-size: 10px;
+   }
+
+   .ubi{
+       display: none;
+   }
+ 
+   .gallery{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-auto-rows: 180px;
+   }
+
+   .gallery-hijo{
+       grid-column: span 1;
+       grid-row: span 1;
+   }
+
+   .producto{
+       font-size: 15px;}
+    }    

@@ -1,0 +1,34 @@
+.main{
+    margin: 10px;
+    background-color: #191919;
+    display: grid;
+    .inicio-index{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        gap: 15px;
+        .video-1{
+            grid-row-start: span 2;
+        }
+        .inicio-hijovideo{
+            video{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            }
+        }
+        div{
+            h1{
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+    .inicio-hijo{
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover; 
+        }
+    }
