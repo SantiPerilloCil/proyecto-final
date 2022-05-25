@@ -12,5 +12,9 @@
             margin: 20px;
          
         }
-       
+        @media (max-width:450px){
+            .ubi{
+                display: none;
+            }
+        }
     }

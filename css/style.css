@@ -32,6 +32,23 @@
 .footer .foot-dir h2 {
   font-size: medium;
 }
+@media screen and (max-width: 450px) {
+  .footer .redes a img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer .lista a {
+    display: none;
+  }
+  .footer .foot-dir a img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .footer .foot-dir h2 {
+    display: none;
+  }
+}
 
 header .background-nav {
   background-color: white;
@@ -76,6 +93,18 @@ header .background-nav div a img {
   width: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 450px) {
+  .inicio-hijo .inicio-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 180px;
+  }
+  .inicio-hijo .inicio-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 180px;
+  }
+}
 
 .main-1 {
   background-image: linear-gradient(white, rgba(25, 25, 25, 0.9254901961));
@@ -111,6 +140,11 @@ header .background-nav div a img {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   margin: 20px;
+}
+@media (max-width: 450px) {
+  .main .ubi {
+    display: none;
+  }
 }
 
 .main-contacto {

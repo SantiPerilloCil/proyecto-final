@@ -201,15 +201,9 @@ background-image: linear-gradient(white, #191919ec);
 /*---media querie - mobile---*/
 
 @media (max-width:450px){
-  .header img{
-      width: 100px;
-      height: 100px;
-  }
+ 
 
-  .menu li a{
-      font-size: 9px;
-  }
-
+ 
     .inicio-index{
         display: grid;
         grid-template-columns: 1fr;
@@ -221,25 +215,26 @@ background-image: linear-gradient(white, #191919ec);
         grid-row: span 1;
     }
 
-   .redes img{
+   /*.redes img{
        width: 30px;
        height: 30px;
-   }
+   }*/
 
-   .footer li a{
+   /*.footer li a{
        font-size: 5px;
-   }
-   .foot-dir a img{
+   }*/
+  /* .foot-dir a img{
        width: 20px;
        height: 20px;
-   }
-   .foot-dir h2{
-       font-size: 10px;
-   }
+   }*/
 
-   .ubi{
+  /* .foot-dir h2{
+       font-size: 10px;
+   }*/
+
+   /*.ubi{
        display: none;
-   }
+   }*/
  
    .gallery{
        display: grid;
