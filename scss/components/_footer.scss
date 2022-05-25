@@ -56,5 +56,29 @@
              display: none;
          }
       }
+      
+      @media screen and (max-width:780px){
+       
+        .redes a img{
+            width: 40px;
+            height: 40px;
+        }
+     
+        .lista a {
+            display: none;
+        }
+      
+
+        .foot-dir a img{
+            width: 40px;
+            height: 40px;
+            margin-left: 20px;
+            }
+
+        .foot-dir h2{
+            display: none;
+        }
+     }
+
          
 }

@@ -13,8 +13,21 @@
          
         }
         @media (max-width:450px){
+            
             .ubi{
                 display: none;
+            }
+            .venta {
+             font-size: 10px;
+            }
+        }
+        @media (max-width:780px){
+            
+            .ubi{
+                display: none;
+            }
+            .venta{
+                font-size: 15px;
             }
         }
     }
