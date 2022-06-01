@@ -31,24 +31,9 @@
             width: 100%;
             object-fit: cover; 
         }
+     
     }
 
 
-        @media screen and (max-width:450px){
-            .inicio {
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-auto-rows: 180px;    
-            }
-            
-            }
-            
-            @media screen and (max-width:780px){
-                .inicio {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    grid-auto-rows: 180px;    
-                }
-    
-                }
+        
     
