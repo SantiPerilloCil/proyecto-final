@@ -121,6 +121,52 @@ header .background-nav div a img {
   text-decoration: overline;
   padding-top: 20px;
 }
+.main-1 .slider {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.main-1 .slider .carrusel {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: carrusel 20s linear infinite alternate;
+}
+.main-1 .slider .carrusel li {
+  list-style: none;
+  width: 100%;
+}
+.main-1 .slider .carrusel li .img-carrusel {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@keyframes carrusel {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
 
 .main-2 {
   background-color: rgba(25, 25, 25, 0.9254901961);
