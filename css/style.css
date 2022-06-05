@@ -178,6 +178,20 @@ header .background-nav div a img {
   color: white;
   padding-top: 20px;
 }
+.main-2 .row {
+  align-items: center;
+  margin-left: 40px;
+}
+.main-2 .card {
+  margin: 10px;
+}
+.main-2 .card img {
+  margin-top: 5px;
+}
+.main-2 .card .card-body {
+  text-align: center;
+  font-size: 12px;
+}
 
 .main {
   background-color: rgba(25, 25, 25, 0.9254901961);

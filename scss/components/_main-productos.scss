@@ -7,5 +7,18 @@
         color: white;
         padding-top: 20px; 
     }
-    
+    .row{
+        align-items: center;
+       margin-left: 40px;
+    }
+    .card{
+        margin: 10px;
+        img{
+            margin-top: 5px;
+        }
+        .card-body{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
    }
